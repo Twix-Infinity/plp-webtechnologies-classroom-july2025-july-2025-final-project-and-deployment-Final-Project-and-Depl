@@ -1,0 +1,71 @@
+body{
+    background-color: lavenderblush;
+    font-family: Comic Sans MS;
+}
+
+head{
+    background-color: lightpink;
+    padding: 10px;
+    border-bottom: 2px solid darkmagenta;
+    text-align: center;
+}
+
+nav{
+    background-color: pink;
+    padding: 1.5%;
+    border: 2px solid darkmagenta;
+    text-align: left;
+    margin: 2%;
+    font-size: 18px;
+    font-weight: bold;
+    size: fit;
+}
+
+h1{
+    color: darkmagenta;
+    text-align: center;
+}
+
+h2{
+    color: deeppink;
+    text-align: center;
+}
+
+p{
+    color: purple;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20%;
+}
+
+ul{
+    color: indigo;
+    font-size: 18px;
+    margin: 20%;
+}
+
+button{
+    background-color: lightpink;
+    color: darkmagenta;
+    border: 2px solid darkmagenta;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+#carousel{
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid darkmagenta;
+    border-radius: 10px;
+}
+
+#carousel img{
+    width: 500px; 
+    height: 400px; 
+    object-fit: cover;
+    margin: 0 auto;
+    align-self : center;
+}
